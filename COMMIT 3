@@ -1,0 +1,8 @@
+ if (tempDifference > 50) {
+        cout << "Warning: Temperature increased too quickly. Reduce the fryer heat." << endl;
+        return 0;
+    } 
+    else if (tempDifference < 10) {
+        cout << "Temperature too low. Increase the fryer heat before continuing." << endl;
+        return 0;
+    }
