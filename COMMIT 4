@@ -1,0 +1,5 @@
+   // Get the third (final) temperature reading
+    cout << "Enter the final temperature reading: ";
+    cin >> finalTemp;
+
+    // Check if the oil is within the correct frying range
