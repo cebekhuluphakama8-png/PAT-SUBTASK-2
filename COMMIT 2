@@ -1,0 +1,6 @@
+  // Get the second temperature reading
+    cout << "Enter the second temperature reading: ";
+    cin >> secondTemp;
+
+    // Validate changes between the first and second readings
+    int tempDifference = secondTemp - firstTemp;
