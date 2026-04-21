@@ -1,0 +1,9 @@
+   if (finalTemp >= 150 && finalTemp <= 190) {
+        cout << "Oil temperature is ideal. You may start frying." << endl;
+    } 
+    else {
+        cout << "Oil temperature not suitable for frying." << endl;
+    }
+
+    return 0;
+}
